@@ -6,7 +6,7 @@
     <title>Salesforce Agent Test11</title>
 </head>
 <body>
-    <h1>Salesforce Messaging Agent Test</h1>
+    <h1>Salesforce Messaging Agent Test11</h1>
     <p>The chat button should appear in the bottom-right corner.</p>
 
     <script type='text/javascript'>
