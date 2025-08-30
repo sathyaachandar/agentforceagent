@@ -16,8 +16,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00DgK000004EU3y',
-				'Matching_Candidates',
-				'https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMatchingCandidates1755258613638',
+				'Messaging_For_All_Sites',
+				'https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMessagingForAllSite1756489194564',
 				{
 					scrt2URL: 'https://orgfarm-668524c287-dev-ed.develop.my.salesforce-scrt.com'
 				}
@@ -27,7 +27,8 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMatchingCandidates1755258613638/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMessagingForAllSite1756489194564/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
 
     <!-- END Salesforce Messaging Deployment Script -->
