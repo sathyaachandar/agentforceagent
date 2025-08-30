@@ -6,9 +6,6 @@
     <title>Salesforce Agent Test11</title>
 </head>
 <body>
-    <h1>Salesforce Messaging Agent Test11</h1>
-    <p>The chat button should appear in the bottom-right corner.</p>
-
     <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -28,7 +25,6 @@
 	};
 </script>
 <script type='text/javascript' src='https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMessagingForAllSite1756489194564/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
 
 
     <!-- END Salesforce Messaging Deployment Script -->
