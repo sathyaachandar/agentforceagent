@@ -3,71 +3,69 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Salesforce Agent Test</title>
+    <title>Sathya AgentForce Webpage</title>
     <style>
         body {
             margin: 0;
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #f3f4f6, #e0e7ff);
+            background: linear-gradient(135deg, #f1f5f9, #e0e7ff);
             color: #333;
         }
 
         header {
-            background: #2563eb;
+            background: #0f172a;
             color: #fff;
-            padding: 1rem 2rem;
+            padding: 1.5rem 2rem;
             text-align: center;
-            font-size: 1.5rem;
-            font-weight: 600;
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
         }
 
         main {
             max-width: 900px;
-            margin: 2rem auto;
-            padding: 2rem;
+            margin: 3rem auto;
+            padding: 2.5rem;
             background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 14px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.12);
             text-align: center;
         }
 
         main h1 {
-            font-size: 2rem;
-            color: #1e40af;
+            font-size: 2.2rem;
+            color: #1d4ed8;
             margin-bottom: 1rem;
         }
 
         main p {
-            font-size: 1.1rem;
+            font-size: 1.15rem;
             line-height: 1.6;
             margin-bottom: 2rem;
+            color: #444;
         }
 
         footer {
-            background: #f1f5f9;
+            background: #f8fafc;
             text-align: center;
             padding: 1rem;
             font-size: 0.9rem;
             color: #555;
+            border-top: 1px solid #e5e7eb;
         }
     </style>
 </head>
 <body>
     <header>
-        Salesforce Agent Test
+        Sathya AgentForce Webpage
     </header>
 
     <main>
-        <h1>Welcome to Our Support Page</h1>
+        <h1>Welcome to Sathya’s AgentForce</h1>
         <p>
-            Our virtual agent is here to help you with your queries.  
-            Before starting, please review our 
-            <a href="https://www.salesforce.com/company/legal/" target="_blank">
-                Terms & Conditions
-            </a>.
-        </p>
-        <p>
-            Once you accept, our support agent will be available in the chat window below.
+            This is your personalized AgentForce webpage.  
+            Use the chat widget in the corner to connect with your Salesforce Agent.
         </p>
     </main>
 
@@ -94,7 +92,7 @@
     <!-- END Salesforce Messaging Deployment Script -->
 
     <footer>
-        &copy; 2025 Salesforce Agent Test. All rights reserved.
+        &copy; 2025 Sathya AgentForce. All rights reserved.
     </footer>
 </body>
 </html>
