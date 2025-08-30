@@ -10,28 +10,26 @@
     <p>The chat button should appear in the bottom-right corner.</p>
 
     <!-- START Salesforce Messaging Deployment Script -->
-    <script type='text/javascript'>
-        window.addEventListener("load", function () {
-            embedded_svc.settings.displayHelpButton = true; // Show the chat/help button
-            embedded_svc.settings.language = 'en'; // Language setting
+   <script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-            embedded_svc.init(
-                'https://YOUR_INSTANCE.my.salesforce.com', // Salesforce Org URL
-                'https://YOUR_EXPERIENCE_SITE.force.com', // Experience Cloud site URL where messaging is deployed
-                gslbBaseURL = null,
-                'YOUR_DEPLOYMENT_NAME', // Deployment Name from Messaging setup
-                {
-                    baseLiveAgentContentURL: 'https://YOUR_INSTANCE.salesforceliveagent.com/content',
-                    deploymentId: 'YOUR_DEPLOYMENT_ID', // Deployment ID from Messaging setup
-                    buttonId: 'YOUR_BUTTON_ID', // Button ID from Messaging setup
-                    baseLiveAgentURL: 'https://YOUR_INSTANCE.salesforceliveagent.com/chat',
-                    eswLiveAgentDevName: 'YOUR_LIVE_AGENT_DEV_NAME', // Developer name from setup
-                    isOfflineSupportEnabled: false
-                }
-            );
-        });
-    </script>
-    <script type='text/javascript' src='https://YOUR_INSTANCE.my.salesforce.com/embeddedservice/asyncclient/bootstrap.js'></script>
+			embeddedservice_bootstrap.init(
+				'00DgK000004EU3y',
+				'Messaging_For_All_Sites',
+				'https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMessagingForAllSite1756489194564',
+				{
+					scrt2URL: 'https://orgfarm-668524c287-dev-ed.develop.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMessagingForAllSite1756489194564/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
     <!-- END Salesforce Messaging Deployment Script -->
 
 </body>
