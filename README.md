@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sathya AgentForce Webpage</title>
     <style>
         body {
@@ -54,6 +54,13 @@
             color: #555;
             border-top: 1px solid #e5e7eb;
         }
+
+        /* 🔥 Custom background for Embedded Messaging widget */
+        .embeddedMessagingConversationWidget {
+            background: url("https://orgfarm-668524c287-dev-ed--c.develop.vf.force.com/resource/1757057103000/newAgent") 
+                        no-repeat center center !important;
+            background-size: cover !important;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +71,7 @@
     <main>
         <h1>Welcome to Sathya’s AgentForce</h1>
         <p>
-            This is your personalized AgentForce webpage.  
+            This is your personalized AgentForce webpage.<br>
             Use the chat widget in the corner to connect with your Salesforce Agent.
         </p>
     </main>
