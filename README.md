@@ -68,35 +68,25 @@
         Sathya AgentForce Webpage
     </header>
 
-    <main>
-        <h1>Welcome to Sathya’s AgentForce</h1>
-        <p>
-            This is your personalized AgentForce webpage.<br>
-            Use the chat widget in the corner to connect with your Salesforce Agent.
-        </p>
-    </main>
-
-    <!-- Salesforce Embedded Messaging Deployment Script -->
     <script type='text/javascript'>
-        function initEmbeddedMessaging() {
-            try {
-                embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-                embeddedservice_bootstrap.init(
-                    '00DgK000004EU3y',
-                    'Matching_Candidates',
-                    'https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMatchingCandidates1755258613638',
-                    {
-                        scrt2URL: 'https://orgfarm-668524c287-dev-ed.develop.my.salesforce-scrt.com'
-                    }
-                );
-            } catch (err) {
-                console.error('Error loading Embedded Messaging: ', err);
-            }
-        };
-    </script>
-    <script type='text/javascript' src='https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMatchingCandidates1755258613638/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-    <!-- END Salesforce Messaging Deployment Script -->
+			embeddedservice_bootstrap.init(
+				'00DgK000004EU3y',
+				'Matching_Candidates',
+				'https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMatchingCandidates1755258613638',
+				{
+					scrt2URL: 'https://orgfarm-668524c287-dev-ed.develop.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMatchingCandidates1755258613638/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
     <footer>
         &copy; 2025 Sathya AgentForce. All rights reserved.
