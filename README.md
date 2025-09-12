@@ -68,7 +68,7 @@
         Sathya AgentForce Webpage
     </header>
 
-    <script type='text/javascript'>
+    [<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
@@ -86,7 +86,7 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMessagingForAllSite1756489194564/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://orgfarm-668524c287-dev-ed.develop.my.site.com/ESWMessagingForAllSite1756489194564/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>](https://crosspeaksolutions.atlassian.net/browse/MALNOVSER-81)
 
 
     <footer>
